@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+@theme {
+  --font-noto: "Noto Sans";
+  --color-light-titles: hsl(227, 75%, 14%);
+  --color-dark-card-bg: hsl(226, 25%, 17%);
+  --color-light-tabs: hsl(225, 23%, 24%);
+  --color-dark-toggle: hsl(226, 11%, 37%);
+  --color-light-toggle-bg: hsl(0, 0%, 78%);
+  --color-light-tabs-border: hsl(217, 61%, 90%);
+  --color-light-theme-icon-bg: hsl(0, 0%, 93%);
+  --color-dark-titles: hsl(200, 60%, 99%);
+  --color-dark-red-toggle-bg: hsl(3, 86%, 64%);
+  --color-dark-active-tab-bg: hsl(3, 71%, 56%);
+  --color-light-red: hsl(3, 77%, 44%);
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
